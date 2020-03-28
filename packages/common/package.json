@@ -1,0 +1,23 @@
+{
+  "name": "@project/common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Sason Braha <sasonbraha@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-native": "0.60"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.60",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react-native": "0.60"
+  }
+}
