@@ -4,17 +4,35 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start:storybook": "start-storybook -p 9009 -s public",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Sason Braha <sasonbraha@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "react": "^16.13.1",
-    "react-native": "0.60"
+    "react-native": "0.60",
+    "react-native-web": "^0.12.2"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@storybook/addon-actions": "^5.3.17",
+    "@storybook/addon-info": "^5.3.17",
+    "@storybook/addon-links": "^5.3.17",
+    "@storybook/addons": "^5.3.17",
+    "@storybook/preset-create-react-app": "^2.1.0",
+    "@storybook/react": "^5.3.17",
     "@types/react-native": "^0.60",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-jest": "^25.2.3",
+    "jest": "^25.2.3",
+    "react-docgen-typescript-loader": "^3.7.1",
+    "react-test-renderer": "^16.13.1",
+    "ts-jest": "^25.2.1",
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
